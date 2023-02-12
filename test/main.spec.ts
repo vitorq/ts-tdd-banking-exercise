@@ -9,8 +9,10 @@
  * 
  */
 
+import { functionCall } from "../src/main";
 
-/*
+
+
 describe("this is just a placeholder for test suite", () => {
     test.todo("this is just a placeholder for todo test");
     test('it should pass', () => {
@@ -23,4 +25,3 @@ describe("this is just a placeholder for test suite", () => {
         expect(()=>{functionCall()}).toThrow("error message");
     });
 });
-*/
