@@ -58,41 +58,4 @@ The `main.spec.ts` file has a series of test implemented to show the basic synta
 
 The `main.ts` file has a dummy function used to illustrate how to implement a test.
 
-## Considerations
- 
- Below you will find a code exercise that can help you to practice Test Driven Development.
-
- Each item is a set of requirements and you need to write tests before start coding a piece of code that satisfies that set of requirements.
-
- Go through the requirements one at the time, resist the urge to overdesign a solution to more than it is required for each set of requirements. 
- 
- Think about a few scenarios first, make them fail, write the simplest possible code that make them past, then refactor your code.
-
- The exercise is focused only on the core rules, no real database integration or UI is required.
-
- ## The challenge
-
- Create a code that simulates basic banking transactions.
-
- 1. Deposit money to a bank account.
-    - Each deposity must go to only one specific bank account.
-    - Deposits to non-existent bank accounts are not allowed.
-    - Deposits must have a positive money value (>0), any other case is not allowed
- 2. Withdraw money from a bank account.
-    - Withdraws can be made from only one specific account at the time.
-    - Only the account holder's, or someone with account access, can perform this operation.
-    - The withdraw can only be done if the account has enough balance in it.
- 3. Transfer money from one bank account to the other.
-    - Transfers can only be made between two accounts at the time
-    - The tranfers is only made if the sender has enough balance in their account.
-    - Only the account holder's, or someone with account access, can perform this operation.
- 4. Retrieve bank account transactions.
-    - Each account transaction must have the type of the operation performed, the date, and the value (`+` if it adds to the balance, `-` if is subtracts from the balance)
- 5. Perform bank transactions between different currencies.
-    - add the capability of performing all previous transactions (deposit, withdraw, transfer) considering different currencies and their exchange rates.
-    - Each bank account must now have a default currency for their balance.
-    - Transactions must describe in which currency their value is.
- 6. Lend money to individuals, charging interest attached to time.
-    - Account holders can borrow money from the bank, each account holder must have a limit of how much they can borrow before paying their debt.
-    - Each loan has an interest rate that behaves like compound interest every month, until the data of their payment.
  
