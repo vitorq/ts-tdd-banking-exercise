@@ -87,7 +87,7 @@ The `main.ts` file has a dummy function used to illustrate how to implement a te
     - The tranfers is only made if the sender has enough balance in their account.
     - Only the account holder's, or someone with account access, can perform this operation.
  4. Retrieve bank account transactions.
-    - Each account transaction must have the type of the operation performed, the date, and the value (+ if it adds to the balance, - if detracts from the value)
+    - Each account transaction must have the type of the operation performed, the date, and the value (`+` if it adds to the balance, `-` if is subtracts from the balance)
  5. Perform bank transactions between different currencies.
     - add the capability of performing all previous transactions (deposit, withdraw, transfer) considering different currencies and their exchange rates.
     - Each bank account must now have a default currency for their balance.
