@@ -11,13 +11,13 @@
 3. Install [typescript](https://www.typescriptlang.org/download)
 4. In the project folder run the command in your terminal
 
-    ```sh
+    ```console
     npm test 
     ```
 
     You should see the following output in your terminal
 
-```sh
+```console
 
     FAIL  test/main.spec.ts this is just a placeholder for test suite
     ✓ it should pass (1 ms)
