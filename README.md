@@ -58,9 +58,9 @@ If that's whay you see, you are ready to start.
  
  Below you will find a code exercise that can help you to practice Test Driven Development.
 
- Each item is a requirement and you need to write tests before start coding a piece of code that satisfies that requirement.
+ Each item is a set of requirements and you need to write tests before start coding a piece of code that satisfies that set of requirements.
 
- Go through the requirements one at the time, resist the urge over design a solution to more than is required for each step. 
+ Go through the requirements one at the time, resist the urge to overdesign a solution to more than it is required for each set of requirements. 
  
  Think about a few scenarios first, make them fail, write the simplest possible code that make them past, then refactor your code.
 
