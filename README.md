@@ -54,6 +54,10 @@
 ```  
 If that's whay you see, you are ready to start.
 
+The `main.spec.ts` file has a series of test implemented to show the basic syntax of the jest framework
+
+The `main.ts` file has a dummy function used to illustrate how to implement a test.
+
 ## Considerations
  
  Below you will find a code exercise that can help you to practice Test Driven Development.
